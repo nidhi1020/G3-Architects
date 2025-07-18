@@ -34,6 +34,13 @@ main > section{
   margin-top: 130px;
   margin-bottom: ;
 }
+.section-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+
+
 /* header styles */
 
 
@@ -96,14 +103,46 @@ main > section{
   margin-left: 130px;
   max-width: 530px;
 }
-.feature-title{
-  font-size: 2.8rem;
-  font-weight: 700;
-}
+
 #quick-list{
   font-weight: 500;
 
 }
+
+/* some facts */
+
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+.fact-num{
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fact-name{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.fact-card{
+  border: 1px solid #FF900E;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  padding: ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.fact-description{
+  max-width: 540px;
+}
+
 
 /* reponsive media query */
 @media screen and (max-width:576px) {
